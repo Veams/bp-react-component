@@ -30,16 +30,19 @@ With this blueprint you can scaffold a react component with multiple options:
 Now you can use this blueprint with `veams` by executing:
 
 ``` bash
-veams generate component modules/articles/components/article
+veams generate component teaser
 ```
 
  The output in your file system will be:
 
 ``` bash
-└── articles
-    └── components
-        └── article
-            └── article.js
+└── src
+    └── shared
+        └── components
+            └── teaser
+                └── teaser.jsx
+                └── teaser.scss
+                └── teaser.story.jsx
 ```
 
 Have fun!
