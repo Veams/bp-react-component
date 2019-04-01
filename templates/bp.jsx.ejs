@@ -1,5 +1,5 @@
 import React, { ExoticComponent, memo } from 'react';
-// import './<%= filename %>.scss';
+<% if (props.addSCSSInline) { %>import './<%= filename %>.scss';<% } %>
 
 /**
  * Component Class {<%= bpJsName %>}
