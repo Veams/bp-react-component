@@ -1,6 +1,6 @@
 {
   "name": "@veams/bp-react-component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Blueprint templates for a react component.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
