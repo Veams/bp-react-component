@@ -1,0 +1,22 @@
+import React, { ExoticComponent, memo } from 'react';
+// import './<%= filename %>.scss';
+
+/**
+ * Component Class {<%= bpJsName %>}
+ * which is exported with namespace to support storybook.
+ */
+export const <%= bpJsName %>Component = memo( props => {
+	const {
+		context,
+		modifiers = ''
+	} = props;
+	const <%= bpName %>Classes = `c-<%= filename %> ${context ? 'c-<%= filename %>--' + context : ''} ${modifiers}`;
+
+	return (
+		<div className={<%= bpName %>Classes}>
+			My custom component
+		</div>
+	);
+} );
+
+export default <%= bpJsName %>Component;

@@ -1,0 +1,24 @@
+{
+	"name": "@veams/bp-react-component",
+	"version": "0.0.1",
+	"description": "Blueprint templates for a react component.",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Veams/bp-react-component.git"
+	},
+	"keywords": [
+		"Veams",
+		"React",
+		"Component",
+		"Blueprint"
+	],
+	"author": "Sebastian Fitzner",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Veams/bp-react-component/issues"
+	},
+	"homepage": "https://github.com/Veams/bp-react-component#readme"
+}

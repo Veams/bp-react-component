@@ -1,0 +1,19 @@
+import { text } from '@storybook/addon-knobs';
+import { storiesOf } from '@storybook/react';
+import React from 'react';
+import { withReadme } from 'storybook-readme';
+import <%= bpJsName %> from './<%= filename %>';
+
+//  @ts-ignore: README file
+import README from './README.md';
+
+storiesOf('Shared|Components/<%= bpJsName %>', module).add(
+	'Default',
+	withReadme(README, () => <<%= bpJsName %> context={text('Context Class', '')} modifiers={text('Modifier Classes', '')} />),
+	{
+		info: {
+			header: false,
+			inline: false
+		}
+	}
+);
